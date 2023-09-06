@@ -20,8 +20,8 @@ def home(request):
     context = {
         'posts': posts
     }
-    return render(request, 'blog/home.html', context)
+    return render(request, 'firstsite/home.html', context)
 
 
 def about(request):
-    return render(request, 'blog/about.html', {'title': 'О клубе Python Bytes'})
+    return render(request, 'firstsite/about.html', {'title': 'О клубе Python Bytes'})
